@@ -1,0 +1,14 @@
+[
+  {
+    "id": "dummy-idea-1",
+    "title": "Dummy Idea",
+    "description": "A dummy idea.",
+    "url": "./dummy-idea.html"
+  },
+  {
+    "id": "dummy-idea-2",
+    "title": "Dummy Idea 2",
+    "description": "Another dummy idea.",
+    "url": "./dummy-idea-2.html"
+  }
+]
