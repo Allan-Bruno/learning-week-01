@@ -48,7 +48,6 @@ body {
 
 #flag {
   margin-right: 3px;
-  margin-top: 3px;
   opacity: 0.3;
   border-radius: 3px;
 }
@@ -58,9 +57,19 @@ body {
   transition: opacity 0.2s;
 }
 
-.language {
+nav {
   display: flex;
-  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a img:hover {
+  opacity: 1;
+  transition: opacity 0.2s;
+}
+
+nav a img {
+  opacity: 0.3;
 }
 
 /* CONTAINER */
