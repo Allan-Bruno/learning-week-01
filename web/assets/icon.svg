@@ -1,0 +1,31 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="16" cy="16" r="16" fill="url(#paint0_radial_103_20)"/>
+<circle cx="16" cy="16" r="16" fill="url(#paint1_radial_103_20)" fill-opacity="0.2"/>
+<path d="M5 10L6.11116 9.3333C7.02886 8.78269 8.04197 8.40967 9.09762 8.23373V8.23373C10.0261 8.07898 10.9739 8.07898 11.9024 8.23373V8.23373C12.958 8.40967 13.9711 8.78269 14.8888 9.3333L16 10" stroke="#0D5E00" stroke-linecap="round"/>
+<path d="M6 12.5L6.99818 11.768C7.68816 11.262 8.47961 10.9116 9.31802 10.7408V10.7408C10.098 10.5819 10.902 10.5819 11.682 10.7408V10.7408C12.5204 10.9116 13.3118 11.262 14.0018 11.768L15 12.5" stroke="#0D5E00" stroke-width="0.5" stroke-linecap="round" stroke-dasharray="1 1"/>
+<path d="M17 15.5L17.9982 14.768C18.6882 14.262 19.4796 13.9116 20.318 13.7408V13.7408C21.098 13.5819 21.902 13.5819 22.682 13.7408V13.7408C23.5204 13.9116 24.3118 14.262 25.0018 14.768L26 15.5" stroke="#0D5E00" stroke-width="0.5" stroke-linecap="round" stroke-dasharray="1 1"/>
+<path d="M17 19.5L17.9982 18.768C18.6882 18.262 19.4796 17.9116 20.318 17.7408V17.7408C21.098 17.5819 21.902 17.5819 22.682 17.7408V17.7408C23.5204 17.9116 24.3118 18.262 25.0018 18.768L26 19.5" stroke="#0D5E00" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path d="M17 13.5L17.9982 12.768C18.6882 12.262 19.4796 11.9116 20.318 11.7408V11.7408C21.098 11.5819 21.902 11.5819 22.682 11.7408V11.7408C23.5204 11.9116 24.3118 12.262 25.0018 12.768L26 13.5" stroke="#0D5E00" stroke-width="0.5" stroke-linecap="round" stroke-dasharray="5 8"/>
+<path d="M6 21.5L6.99818 20.768C7.68816 20.262 8.47961 19.9116 9.31802 19.7408V19.7408C10.098 19.5819 10.902 19.5819 11.682 19.7408V19.7408C12.5204 19.9116 13.3118 20.262 14.0018 20.768L15 21.5" stroke="#0D5E00" stroke-width="0.5" stroke-linecap="round" stroke-dasharray="1 2"/>
+<path d="M6 17.5L6.99818 16.768C7.68816 16.262 8.47961 15.9116 9.31802 15.7408V15.7408C10.098 15.5819 10.902 15.5819 11.682 15.7408V15.7408C12.5204 15.9116 13.3118 16.262 14.0018 16.768L15 17.5" stroke="#0D5E00" stroke-width="0.5" stroke-linecap="round" stroke-dasharray="2 3"/>
+<path d="M6 14.5L6.99818 13.768C7.68816 13.262 8.47961 12.9116 9.31802 12.7408V12.7408C10.098 12.5819 10.902 12.5819 11.682 12.7408V12.7408C12.5204 12.9116 13.3118 13.262 14.0018 13.768L15 14.5" stroke="#0D5E00" stroke-width="0.5" stroke-linecap="round" stroke-dasharray="5 2"/>
+<path d="M27 10L25.8888 9.3333C24.9711 8.78269 23.958 8.40967 22.9024 8.23373V8.23373C21.9739 8.07898 21.0261 8.07898 20.0976 8.23373V8.23373C19.042 8.40967 18.0289 8.78269 17.1112 9.3333L16 10" stroke="#0D5E00" stroke-linecap="round"/>
+<path d="M5 23.5L6.11116 22.8333C7.02886 22.2827 8.04197 21.9097 9.09762 21.7337V21.7337C10.0261 21.579 10.9739 21.579 11.9024 21.7337V21.7337C12.958 21.9097 13.9711 22.2827 14.8888 22.8333L16 23.5" stroke="#0D5E00" stroke-linecap="round"/>
+<path d="M27 23.5L25.8888 22.8333C24.9711 22.2827 23.958 21.9097 22.9024 21.7337V21.7337C21.9739 21.579 21.0261 21.579 20.0976 21.7337V21.7337C19.042 21.9097 18.0289 22.2827 17.1112 22.8333L16 23.5" stroke="#0D5E00" stroke-linecap="round"/>
+<line x1="16" y1="23" x2="16" y2="10" stroke="#0D5E00" stroke-linecap="square"/>
+<rect x="15" y="22.5" width="2" height="1.5" rx="0.75" fill="#0D5D00"/>
+<line x1="5" y1="23" x2="5" y2="10" stroke="#0D5E00" stroke-linecap="round"/>
+<line x1="27" y1="23" x2="27" y2="10" stroke="#0D5E00" stroke-linecap="round"/>
+<defs>
+<radialGradient id="paint0_radial_103_20" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(16 15.5) rotate(-90) scale(15.5 110.643)">
+<stop stop-color="#23FF00"/>
+<stop offset="0.526705" stop-color="#2F981E"/>
+<stop offset="1" stop-color="#0A4900"/>
+</radialGradient>
+<radialGradient id="paint1_radial_103_20" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(16 16) rotate(180) scale(16)">
+<stop/>
+<stop offset="0.48224" stop-color="#02524D"/>
+<stop offset="1" stop-color="#002F2C"/>
+</radialGradient>
+</defs>
+</svg>
