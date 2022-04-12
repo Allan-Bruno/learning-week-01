@@ -27,8 +27,8 @@ html {
 }
 
 body {
-  font-family: 'Ubuntu', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: "Ubuntu", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: #000;
 }
 
@@ -40,12 +40,20 @@ body {
   margin: 0 auto;
 }
 
+/* NAV */
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem; /* 8px */
+}
+
 /* HEADER */
 
 header {
   background: linear-gradient(to right, var(--green-700), var(--green-500));
   margin-bottom: 2rem;
-  padding: 1rem 1.5rem;
+  padding: 0.5rem;
   width: 100%;
   box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
 }
@@ -54,6 +62,30 @@ header h1 {
   font-size: 1.5rem;
   color: #fff;
   font-weight: 500;
+}
+
+/* FOOTER */
+
+footer {
+  display: flex;
+  position: relative;
+  top: 26rem;
+  justify-content: space-around;
+  background-color: #e6e6e6;
+  padding: 5px;
+}
+
+footer p {
+  display: flex;
+  align-items: center;
+  cursor: default;
+}
+
+footer a {
+  color: inherit;
+  display: flex;
+  gap: 5px;
+  align-items: center;
 }
 
 /* IDEAS */
@@ -98,6 +130,27 @@ header h1 {
   font-size: 0.9rem;
 }
 
+/* SCROLL BAR */
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
 /* RESPONSIVITY */
 
 @media (min-width: 768px) {
