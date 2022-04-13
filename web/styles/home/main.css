@@ -36,8 +36,11 @@ body {
 
 .container {
   width: 90vw;
+  height: 99vh;
   max-width: 720px;
   margin: 0 auto;
+  display: grid;
+  grid-template-rows: 17fr 1fr;
 }
 
 /* NAV */
@@ -68,10 +71,8 @@ header h1 {
 
 footer {
   display: flex;
-  position: relative;
-  top: 26rem;
-  justify-content: space-around;
-  background-color: #e6e6e6;
+  width: 100%;
+  justify-content: space-evenly;
   padding: 5px;
 }
 
@@ -153,9 +154,17 @@ footer a {
 }
 /* RESPONSIVITY */
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   html {
     font-size: 93.75%;
+  }
+
+  footer p {
+    font-size: 0.8rem;
+  }
+
+  footer a {
+    font-size: 0.8rem;
   }
 
   #ideas .card p {
