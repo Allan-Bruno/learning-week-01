@@ -36,19 +36,9 @@ body {
 
 .container {
   width: 90vw;
-  height: 99vh;
   max-width: 720px;
-  margin: 0 auto;
+  margin: 1rem auto 3rem;
   display: grid;
-  grid-template-rows: 17fr 1fr;
-}
-
-/* NAV */
-
-nav {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem; /* 8px */
 }
 
 /* HEADER */
@@ -56,37 +46,32 @@ nav {
 header {
   background: linear-gradient(to right, var(--green-700), var(--green-500));
   margin-bottom: 2rem;
-  padding: 0.5rem;
+  padding: 1rem;
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
 }
 
+header a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
 header h1 {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: #fff;
   font-weight: 500;
 }
 
-/* FOOTER */
-
-footer {
-  display: flex;
+nav {
   width: 100%;
-  justify-content: space-evenly;
-  padding: 5px;
-}
-
-footer p {
+  max-width: 720px;
   display: flex;
   align-items: center;
-  cursor: default;
-}
-
-footer a {
-  color: inherit;
-  display: flex;
-  gap: 5px;
-  align-items: center;
+  justify-content: space-between;
 }
 
 /* IDEAS */
@@ -162,6 +147,22 @@ footer a {
 
 #pagination-controls button:not(:disabled):hover {
   filter: brightness(0.9);
+}
+
+/* FOOTER */
+
+footer {
+  margin: 0 auto;
+  width: 90vw;
+  max-width: 720px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+footer a {
+  text-decoration: underline;
 }
 
 /* SCROLL BAR */
