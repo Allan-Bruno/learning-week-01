@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <meta name="description" content="Learning Week's homepage." />
+    <meta name="description" content="Página inicial da Learning Week." />
     <link
       rel="icon"
       href="/assets/favicon.ico"
@@ -24,10 +24,26 @@
   <body>
     <header>
       <nav>
-        <img src="/assets/icon.svg" alt="Learning Week's Logo" /><a
-          href="/pages/home"
-        >
+        <a href="/pages/home">
+          <img
+            src="/assets/icon.svg"
+            alt="Learning Week's Logo"
+            width="24"
+            height="24"
+          />
           <h1>Learning Week</h1>
+        </a>
+
+        <a
+          href="https://github.com/Allan-Bruno/learning-week-01"
+          rel="noopener noreferrer"
+        >
+          <img
+            src="/assets/github.svg"
+            alt="Repositório do projeto"
+            width="24"
+            height="24"
+          />
         </a>
       </nav>
     </header>
@@ -37,15 +53,41 @@
         <h2>Ideias</h2>
 
         <ul></ul>
+
+        <div id="pagination-controls">
+          <button id="previous-page">
+            <img
+              src="/assets/chevron-left.svg"
+              alt="Dia anterior"
+              width="16"
+              height="16"
+            />
+          </button>
+
+          <button id="next-page">
+            <img
+              src="/assets/chevron-right.svg"
+              alt="Próximo dia"
+              width="16"
+              height="16"
+            />
+          </button>
+        </div>
       </section>
-      <footer>
-        <a target="blank" href="https://github.com/Allan-Bruno/learning-week-01"
-          ><img src="/assets/github.svg" alt="GitHub's Logo" />Repositório
-          <br />do projeto</a
-        >
-        <p>Feito por <br />Allan Bruno e Wendell Kenneddy</p>
-      </footer>
     </main>
-    <script src="/scripts/home/index.js" type="module"></script>
+
+    <footer>
+      <p>
+        Feito
+        <a href="https://github.com/Allan-Bruno" rel="noopener noreferrer">
+          Allan Bruno
+        </a>
+        e
+        <a href="https://github.com/wendell-kenneddy" rel="noopener noreferrer">
+          Wendell Kenneddy
+        </a>
+      </p>
+    </footer>
+    <script src="/scripts/pt-br/home/index.js" type="module"></script>
   </body>
 </html>
