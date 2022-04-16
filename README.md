@@ -1,67 +1,59 @@
-<h1 align="center" font-weight: bold;" >Learning Week</h1>
+<h1 align="center" style="font-weight:bold;">Learning Week</h1>
 
 <p float="left">
-  <img src="images/learning-week-preview-landing-desktop.png" width="800" />
-  <img src="images/learning-week-preview-landing-mobile.png" width="200" /> 
+  <img src=".github/learning-week-preview-landing-desktop.png" width="800" />
+  <img src=".github/learning-week-preview-landing-mobile.png" width="200" /> 
 </p>
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+---
 
-<h1 align="center">⬇️What is the Learning Week?⬇️</h1>
-<br>
-<br>
+## 📕 About
 
-Learning Week is a personal project with the pure purpose of incentive the knownledge.
+Learning Week is a personal project with the sole purpose of encourage apprenticeship.
 
 The rules are:
 
-**1.** You must learn something new every single day, indenpendent of the previous knowledges, areas of activity etc.
+**1**. You must learn something new every single day, independent of the previous knowledges, areas of activity etc.
 
-**2.** Write a text documenting your new subject of study.
+**2**. Write a text documenting your new subject of study.
 
-**3.** You can appear on the website to share more widely to more people using the site, send a message to me on discord or just do a PR if you feel confortable (This one is totally **optional**)
-
-<br>
-<br>
-<br>
+**3**. You can appear on the website to share more widely to more people using the site, send a message to me on discord or just do a PR if you feel confortable (This one is totally **optional**)
 
 ---
 
-<h1 align="center">⬇️Whow the card system works?⬇️</h1>
-<br>
-<br>
+## ✨ Features
+
+- **Responsivity**
+- **Dynamic card rendering**
+
+---
+
+## ⚒️ Used Stack
+
+- HTML5
+- CSS3
+- Javascript (Vanilla)
+
+---
+
+## ⚙️ Contributing
 
 In case you want a PR to add your idea to the site, do the following steps:
 
-**1.**
-**2.**
-**3.**
+**1**. First, create a dedicated page on the web/pages folder, following the current structure.
 
-<br>
-<br>
-<br>
+**2**. Add the necessary assets, such as images, styles and scripts on their respective folders.
 
----
+**3**. Edit the web/data/home/pages.json, creating a new object on the cards entry according to the day of creation.
 
-<h1 align="center">⬇️Features⬇️</h1>
-<br>
-<br>
+\*Please note that every and any entry to the json **MUST** follow the current structure. Feel free to experiment locally, and then create a PR when ready.
 
-- **Responsivity**
+\*Also, pay attention to SEO, and add, at least, all the meta tags present on the homepage.
 
-- **Dynamic card render**
-
-<br>
-<br>
-<br>
+When done, the card will appear on the homepage as expected.
 
 ---
 
-<h1 align="center">⬇️License⬇️</h1>
+## 🔓 License
 
-This project is under the MIT license. Check out [here](/LICENSE) for more details.
+This project is under the MIT license. [Click here](/LICENSE) for more details.
