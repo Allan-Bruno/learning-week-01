@@ -1,8 +1,8 @@
-<h1 style="text-align: center; font-weight: bold;" >Learning Week</h1>
+<h1 align="center" font-weight: bold;" >Learning Week</h1>
 
 <p float="left">
-  <img src="images/learning-week-preview-landing-desktop.png" width="744.9" />
-  <img src="images/learning-week-preview-landing-mobile.png" width="198" /> 
+  <img src="images/learning-week-preview-landing-desktop.png" width="800" />
+  <img src="images/learning-week-preview-landing-mobile.png" width="200" /> 
 </p>
 
 <br>
@@ -12,7 +12,7 @@
 <br>
 <br>
 
-<h1 style="text-align:center;">⬇️What is the Learning Week?⬇️</h1>
+<h1 align="center">⬇️What is the Learning Week?⬇️</h1>
 <br>
 <br>
 
@@ -32,7 +32,7 @@ The rules are:
 
 ---
 
-<h1 style="text-align:center;">⬇️Whow the card system works?⬇️</h1>
+<h1 align="center">⬇️Whow the card system works?⬇️</h1>
 <br>
 <br>
 
@@ -48,7 +48,7 @@ In case you want a PR to add your idea to the site, do the following steps:
 
 ---
 
-<h1 style="text-align:center;">⬇️Features⬇️</h1>
+<h1 align="center">⬇️Features⬇️</h1>
 <br>
 <br>
 
@@ -62,6 +62,6 @@ In case you want a PR to add your idea to the site, do the following steps:
 
 ---
 
-<h1 style="text-align:center;">⬇️License⬇️</h1>
+<h1 align="center">⬇️License⬇️</h1>
 
 This project is under the MIT license. Check out [here](/LICENSE) for more details.
