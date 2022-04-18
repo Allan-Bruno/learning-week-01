@@ -86,11 +86,20 @@ export class CardsPagination {
     const data = this.#pages[this.#currentPage - 1].cards;
     this.#cards = data.map((c) => {
       const li = document.createElement('li');
-      const title = c.title[this.#locale];
-      const description = c.description[this.#locale];
-      const card = new IdeaCard(title, description);
-      li.appendChild(card.createCard());
+      const card = this.#buildCard(c);
+      li.appendChild(card);
       return li;
     });
+  }
+
+  #buildCard(c) {
+    const a = document.createElement('a');
+    const title = c.title[this.#locale];
+    const description = c.description[this.#locale];
+    const href = this.#locale === 'pt-br' ? `/pt-BR${c.link}` : c.link;
+    const card = new IdeaCard(title, description);
+    a.setAttribute('href', href);
+    a.appendChild(card.createCard());
+    return a;
   }
 }
