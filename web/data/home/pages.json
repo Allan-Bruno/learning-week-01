@@ -5,63 +5,12 @@
     "cards": [
       {
         "title": {
-          "en-us": "Dummy card #1.",
-          "pt-br": "Card provisório #1."
+          "en-us": "MUI Button",
+          "pt-br": "Botão do MUI (Material UI)."
         },
         "description": {
-          "en-us": "Dummy card description #1.",
-          "pt-br": "Descrição de card provisório #1."
-        },
-        "authorship": {
-          "author": "Wendell Kenneddy",
-          "github": "https://github.com/wendell-kenneddy",
-          "image": "https://github.com/wendell-kenneddy.png"
-        }
-      },
-      {
-        "title": {
-          "en-us": "Dummy card #2.",
-          "pt-br": "Card provisório #2."
-        },
-        "description": {
-          "en-us": "Dummy card description #2.",
-          "pt-br": "Descrição de card provisório #2."
-        },
-        "authorship": {
-          "author": "Wendell Kenneddy",
-          "github": "https://github.com/wendell-kenneddy",
-          "image": "https://github.com/wendell-kenneddy.png"
-        }
-      }
-    ]
-  },
-  {
-    "id": 2,
-    "day": 2,
-    "cards": [
-      {
-        "title": {
-          "en-us": "Dummy card #3.",
-          "pt-br": "Card provisório #3."
-        },
-        "description": {
-          "en-us": "Dummy card description #3.",
-          "pt-br": "Descrição de card provisório #3."
-        },
-        "authorship": {
-          "author": "Wendell Kenneddy",
-          "github": "https://github.com/wendell-kenneddy",
-          "image": "https://github.com/wendell-kenneddy.png"
-        }
-      },
-      {
-        "title": {
-          "en-us": "Dummy card #4.",
-          "pt-br": "Card provisório #4."
-        },
-        "description": {
-          "en-us": "Dummy card description #4.",
-          "pt-br": "Descrição de card provisório #4."
+          "en-us": "A recreation of MUI's button component.",
+          "pt-br": "Uma recriação do componente de botão da biblioteca MUI."
         },
         "authorship": {
           "author": "Wendell Kenneddy",
