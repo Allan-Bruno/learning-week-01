@@ -4,6 +4,7 @@
     "day": 1,
     "cards": [
       {
+        "link": "/pages/mui-button/index.html",
         "title": {
           "en-us": "MUI Button",
           "pt-br": "Botão do MUI (Material UI)."
