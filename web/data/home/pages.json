@@ -42,5 +42,27 @@
         }
       }
     ]
+  },
+  {
+    "id": 3,
+    "day": 3,
+    "cards": [
+      {
+        "link": "/pages/builder-pattern/",
+        "title": {
+          "en-us": "Builder pattern",
+          "pt-br": "Padrão de projeto builder"
+        },
+        "description": {
+          "en-us": "A simple implementation of the builder design pattern.",
+          "pt-br": "Uma simples implementação do padrão de projeto builder."
+        },
+        "authorship": {
+          "author": "Wendell Kenneddy",
+          "github": "https://github.com/wendell-kenneddy",
+          "image": "https://github.com/wendell-kenneddy.png"
+        }
+      }
+    ]
   }
 ]
