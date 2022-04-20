@@ -20,5 +20,27 @@
         }
       }
     ]
+  },
+  {
+    "id": 2,
+    "day": 2,
+    "cards": [
+      {
+        "link": "/pages/variable-value-switch/index.html",
+        "title": {
+          "en-us": "Variable's value switch",
+          "pt-br": "Troca do valor das variáveis"
+        },
+        "description": {
+          "en-us": "A method used to change multiple variables without redeclare them",
+          "pt-br": "Um método usado para trocar os valores das variáveis sem redeclara-las"
+        },
+        "authorship": {
+          "author": "Allan Bruno",
+          "github": "https://github.com/Allan-Bruno",
+          "image": "https://github.com/Allan-Bruno"
+        }
+      }
+    ]
   }
 ]
