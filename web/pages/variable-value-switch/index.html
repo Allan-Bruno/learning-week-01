@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta
+      name="description"
+      content="A recreation of MUI's button component."
+    />
+    <link
+      rel="icon"
+      href="/assets/favicon.ico"
+      type="image/x-icon"
+      sizes="any"
+    />
+    <link rel="icon" href="/assets/icon.svg" type="image/svg+xml" />
+    <title>Learning Week - Variable Value Switch</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Ubuntu:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles/variable-value-switch/main.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="/pages/home">
+          <img
+            src="/assets/icon.svg"
+            alt="Learning Week's Logo"
+            width="24"
+            height="24"
+          />
+          <h1>Learning Week</h1>
+        </a>
+
+        <a
+          href="https://github.com/Allan-Bruno/learning-week-01"
+          rel="noopener noreferrer"
+        >
+          <img
+            src="/assets/github.svg"
+            alt="Project's repository"
+            width="24"
+            height="24"
+          />
+        </a>
+      </nav>
+    </header>
+
+    <main class="container">
+      <h2>Changing variable's values with out redeclare them</h2>
+
+      <p>
+        I currently find myself reviewing some basic JavaScript stuff
+        following the schedule of a paid course. As the event started in the middle,
+        I'll continue writing where I left off.<br /><br />
+        Despite being a subject that is believed to be little used, so far it has not been
+        knew of the possibility:<br />
+        In case it is necessary to exchange multiple variable values,
+        the following method can be used.<br /><br />
+        Ex.: There are variables A, B and C; all with their respective values,
+        now change the order of the variables without declaring them again.
+        <pre class="code">
+          <code>
+            let varA = 'A'; // Needs to be B 
+            let varB = 'B'; // Needs to be C 
+            let varC = 'C'; // Needs to be A
+          </code>
+        </pre> <br />
+        Therefore, it is possible to use square brackets ( [ ] ) to solve the problem:<br />
+        <pre class="code">
+          <code>
+            let varA = 'A'; 
+            let varB = 'B'; 
+            let varC = 'C';
+          
+            [varA, varB, varC] = [varB, varC, varA]
+          </code>
+        </pre><br /><br /> 
+        So now the variables have the values
+        desired and did not need to be declared again.<br /> OBS.: It is important
+        point out that the values ​​in the second square bracket need to be in order with
+        the values ​​to be changed.
+      </p>
+    </main>
+
+    <footer>
+      <p>
+        Made by
+        <a href="https://github.com/Allan-Bruno" rel="noopener noreferrer">
+          Allan Bruno
+        </a>
+        and
+        <a href="https://github.com/wendell-kenneddy" rel="noopener noreferrer">
+          Wendell Kenneddy
+        </a>
+      </p>
+    </footer>
+
+    <script src="/scripts/mui-button/index.js" type="module"></script>
+  </body>
+</html>
