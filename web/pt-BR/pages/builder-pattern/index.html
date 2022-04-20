@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta name="description" content="Uma implementação do pattern Builder." />
+    <link
+      rel="icon"
+      href="/assets/favicon.ico"
+      type="image/x-icon"
+      sizes="any"
+    />
+    <link rel="icon" href="/assets/icon.svg" type="image/svg+xml" />
+    <title>Learning Week - Builder Pattern</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles/builder-pattern/main.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="/pt-BR/pages/home">
+          <img
+            src="/assets/icon.svg"
+            alt="Learning Week's Logo"
+            width="24"
+            height="24"
+          />
+          <h1>Learning Week</h1>
+        </a>
+
+        <a
+          href="https://github.com/Allan-Bruno/learning-week-01"
+          rel="noopener noreferrer"
+        >
+          <img
+            src="/assets/github.svg"
+            alt="Project's repository"
+            width="24"
+            height="24"
+          />
+        </a>
+      </nav>
+    </header>
+
+    <main class="container">
+      <h2>Builder Pattern</h2>
+
+      <p>
+        O padrão de projeto builder é um pattern criacional que facilita a
+        criação de objetos complexos, implementando uma abordagem passo-a-passo,
+        de maneira que cada propriedade possa ser atribuída separadamente, tendo
+        o objeto final no fim do processo.
+      </p>
+
+      <p>
+        Neste exemplo, criaremos um carro. Dê uma olhada na tabela abaixo. Ela
+        guarda informações sobre o carro. Agora tente mudar os valores como
+        desejar, e clique no botão "Construir" para ver o resultado.
+      </p>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>Cor</th>
+            <th>Velocidade Máxima (Km/h)</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td id="car-name">- - -</td>
+            <td id="car-color">- - -</td>
+            <td id="car-max-speed">0</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="car-control">
+        <label for="name">Nome</label>
+        <input type="text" name="name" id="name" />
+        <button id="set-name">Definir Name</button>
+      </div>
+
+      <div class="car-control">
+        <label for="color">Cor</label>
+        <input type="text" name="color" id="color" />
+        <button id="set-color">Definir Cor</button>
+      </div>
+
+      <div class="car-control">
+        <label for="max-speed">Velocidade Máxima</label>
+        <input type="number" name="max-speed" id="max-speed" />
+        <button id="set-max-speed">Definir Velocidade Máxima</button>
+      </div>
+
+      <button id="build-btn">Construir</button>
+    </main>
+
+    <footer>
+      <p>
+        Feito por
+        <a href="https://github.com/Allan-Bruno" rel="noopener noreferrer">
+          Allan Bruno
+        </a>
+        e
+        <a href="https://github.com/wendell-kenneddy" rel="noopener noreferrer">
+          Wendell Kenneddy
+        </a>
+      </p>
+    </footer>
+
+    <script src="/scripts/builder-pattern/index.js" type="module"></script>
+  </body>
+</html>
