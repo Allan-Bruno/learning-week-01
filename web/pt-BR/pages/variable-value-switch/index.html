@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta
+      name="description"
+      content="A recreation of MUI's button component."
+    />
+    <link
+      rel="icon"
+      href="/assets/favicon.ico"
+      type="image/x-icon"
+      sizes="any"
+    />
+    <link rel="icon" href="/assets/icon.svg" type="image/svg+xml" />
+    <title>Learning Week - Troca dos valores da variável</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Ubuntu:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles/variable-value-switch/main.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="/pages/home">
+          <img
+            src="/assets/icon.svg"
+            alt="Learning Week's Logo"
+            width="24"
+            height="24"
+          />
+          <h1>Learning Week</h1>
+        </a>
+
+        <a
+          href="https://github.com/Allan-Bruno/learning-week-01"
+          rel="noopener noreferrer"
+        >
+          <img
+            src="/assets/github.svg"
+            alt="Project's repository"
+            width="24"
+            height="24"
+          />
+        </a>
+      </nav>
+    </header>
+
+    <main class="container">
+      <h2>Trocando valores de váriaveis em sequência</h2>
+
+      <p>
+        Atualmente me encontro revisando algumas coisas básicas do JavaScript
+        seguindo o cronograma de um curso pago. Como o evento começou no meio,
+        continuarei anotando de onde parei.<br /><br />
+        Apesar de ser um assunto que acredita ser pouco usado, até o momento não
+        sabia da possibilidade:<br />
+        No caso de ser necessário a troca de múltiplos valores de variáveis pode
+        ser usado o seguinte método.<br /><br />
+        Ex.: Existem as variáveis A, B e C; todas com seus respectivos valores,
+        agora troque a ordem das variáveis sem as declarar novamente. 
+        <pre class="code">
+          <code>
+            let varA = 'A'; // Agora precisa ser B 
+            let varB = 'B'; // Agora precisa ser C 
+            let varC = 'C'; // Agora precisa ser A
+          </code>
+        </pre><br />
+        Sendo assim é possível a utilização de colchetes ( [ ] ) para a resolução do problema:<br />
+        <pre class="code">
+          <code>
+            let varA = 'A'; 
+            let varB = 'B'; 
+            let varC = 'C';
+          
+            [varA, varB, varC] = [varB, varC, varA]
+          </code>
+        </pre><br /><br /> 
+        Sendo assim agora as variáveis possuem os valores
+        desejados e não precisaram ser declaradas novamente.<br /> OBS.: É importante
+        ressaltar que os valores no segundo colchete precisam ser em ordem com
+        os valores que vão ser mudados.
+      </p>
+    </main>
+
+    <footer>
+      <p>
+        Feito por
+        <a href="https://github.com/Allan-Bruno" rel="noopener noreferrer">
+          Allan Bruno
+        </a>
+        and
+        <a href="https://github.com/wendell-kenneddy" rel="noopener noreferrer">
+          Wendell Kenneddy
+        </a>
+      </p>
+    </footer>
+
+    <script src="/scripts/mui-button/index.js" type="module"></script>
+  </body>
+</html>
