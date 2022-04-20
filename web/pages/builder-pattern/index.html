@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta
+      name="description"
+      content="An implementation of the builder pattern."
+    />
+    <link
+      rel="icon"
+      href="/assets/favicon.ico"
+      type="image/x-icon"
+      sizes="any"
+    />
+    <link rel="icon" href="/assets/icon.svg" type="image/svg+xml" />
+    <title>Learning Week - Builder Pattern</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles/builder-pattern/main.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="/pages/home">
+          <img
+            src="/assets/icon.svg"
+            alt="Learning Week's Logo"
+            width="24"
+            height="24"
+          />
+          <h1>Learning Week</h1>
+        </a>
+
+        <a
+          href="https://github.com/Allan-Bruno/learning-week-01"
+          rel="noopener noreferrer"
+        >
+          <img
+            src="/assets/github.svg"
+            alt="Project's repository"
+            width="24"
+            height="24"
+          />
+        </a>
+      </nav>
+    </header>
+
+    <main class="container">
+      <h2>Builder Pattern</h2>
+
+      <p>
+        The builder design pattern is a creational pattern that makes easy to
+        construct complex objects, by implementing a step-by-step approach, in a
+        way that each property of the object can be created separately, with the
+        final object at the end.
+      </p>
+
+      <p>
+        In this example, we will build a car, step-by-step. Take a look at the
+        table below. It displays the current info about the car, now try setting
+        it's values, and click the "Build" button to see the result.
+      </p>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Color</th>
+            <th>Max Speed (Km/h)</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td id="car-name">- - -</td>
+            <td id="car-color">- - -</td>
+            <td id="car-max-speed">0</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="car-control">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" />
+        <button id="set-name">Set Name</button>
+      </div>
+
+      <div class="car-control">
+        <label for="color">Color</label>
+        <input type="text" name="color" id="color" />
+        <button id="set-color">Set Color</button>
+      </div>
+
+      <div class="car-control">
+        <label for="max-speed">Max Speed</label>
+        <input type="number" name="max-speed" id="max-speed" />
+        <button id="set-max-speed">Set Max Speed</button>
+      </div>
+
+      <button id="build-btn">Build</button>
+    </main>
+
+    <footer>
+      <p>
+        Made by
+        <a href="https://github.com/Allan-Bruno" rel="noopener noreferrer">
+          Allan Bruno
+        </a>
+        and
+        <a href="https://github.com/wendell-kenneddy" rel="noopener noreferrer">
+          Wendell Kenneddy
+        </a>
+      </p>
+    </footer>
+
+    <script src="/scripts/builder-pattern/index.js" type="module"></script>
+  </body>
+</html>
