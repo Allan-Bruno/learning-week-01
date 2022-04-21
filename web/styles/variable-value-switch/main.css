@@ -9,6 +9,10 @@
 
 /* RESET */
 
+p + p {
+  margin-top: 1rem;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -92,8 +96,14 @@ main p a {
 /* CODE BOX SETTINGS */
 
 .code {
-  border: 3px solid gray;
+  border: 3px solid #ff79c6;
   border-radius: 10px;
+  background-color: #282a36;
+  color: #bd93f9;
+  font-size: 12px;
+  align-content: left;
+  text-align: left;
+  justify-content: left;
 }
 
 /* FOOTER */
