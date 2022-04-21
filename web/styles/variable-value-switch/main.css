@@ -93,17 +93,16 @@ main p a {
   text-decoration: underline;
 }
 
-/* CODE BOX SETTINGS */
+/* IMG SETTINGS */
 
-.code {
-  border: 3px solid #ff79c6;
-  border-radius: 10px;
-  background-color: #282a36;
-  color: #bd93f9;
-  font-size: 12px;
-  align-content: left;
-  text-align: left;
-  justify-content: left;
+.desktop {
+  visibility: visible;
+  display: flex;
+}
+
+.mobile {
+  visibility: hidden;
+  display: none;
 }
 
 /* FOOTER */
@@ -152,6 +151,16 @@ footer a {
 
   footer a {
     font-size: 0.8rem;
+  }
+
+  .desktop {
+    visibility: hidden;
+    display: none;
+  }
+
+  .mobile {
+    visibility: visible;
+    display: flex;
   }
 }
 
