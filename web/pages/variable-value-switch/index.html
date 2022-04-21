@@ -55,45 +55,57 @@
       <h2>Changing variable's values with out redeclare them</h2>
 
       <p>
-        I currently find myself reviewing some basic JavaScript stuff
-        following the schedule of a paid course. As the event started in the middle,
-        I'll continue writing where I left off.
-      <p>
-        Despite being a subject that is believed to be little used, so far it has not been
-        knew of the possibility:
+        I currently find myself reviewing some basic JavaScript stuff following
+        the schedule of a paid course. As the event started in the middle, I'll
+        continue writing where I left off.
       </p>
-        In case it is necessary to exchange multiple variable values,
-        the following method can be used.
+      <p>
+        Despite being a subject that is believed to be little used, so far it
+        has not been knew of the possibility:
+      </p>
+      In case it is necessary to exchange multiple variable values, the
+      following method can be used.
       <p>
         Ex.: There are variables A, B and C; all with their respective values,
         now change the order of the variables without declaring them again.
       </p>
-        <pre class="line-numbers code">
-          <code class="language-javascript">
-            let varA = 'A'; // Needs to be B 
-            let varB = 'B'; // Needs to be C 
-            let varC = 'C'; // Needs to be A
-          </code>
-        </pre>
+      <div class="code">
+        <img
+          class="mobile"
+          src="/pages/variable-value-switch/assets/code-mobile.svg"
+          alt="A code snippet"
+        />
+
+        <img
+          class="desktop"
+          src="/pages/variable-value-switch/assets/code-desktop.svg"
+          alt="A code snippet"
+        />
+      </div>
       <p>
-        Therefore, it is possible to use square brackets ( [ ] ) to solve the problem:<br />
+        Therefore, it is possible to use square brackets ( [ ] ) to solve the
+        problem:<br />
       </p>
-        <pre class="line-numbers code">
-          <code class="language-javascript">
-            let varA = 'A'; 
-            let varB = 'B'; 
-            let varC = 'C';
-          
-            [varA, varB, varC] = [varB, varC, varA]
-          </code>
-        </pre><br /><br /> 
-        So now the variables have the values
-        desired and did not need to be declared again. 
-        <p>
-          OBS.: It is important
-          point out that the values ​​in the second square bracket need to be in order with
-          the values ​​to be changed.
-        </p>
+
+      <img
+        class="mobile"
+        src="/pages/variable-value-switch/assets/code-mobile2.svg"
+        alt="Another code snippet"
+      />
+
+      <img
+        class="desktop"
+        src="/pages/variable-value-switch/assets/code-desktop2.svg"
+        alt="Another code snippet"
+      />
+
+      <p>
+        So now the variables have the values desired and did not need to be
+        declared again.
+      </p>
+      <p>
+        OBS.: It is important point out that the values in the second square
+        bracket need to be in order with the values to be changed.
       </p>
     </main>
 
